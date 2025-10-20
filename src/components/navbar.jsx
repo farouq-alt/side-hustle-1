@@ -29,6 +29,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-brand">
+          <img src="ENCG_Barakat_navbar.png" alt="" />
           <h2>ENCG Barakat</h2>
         </div>
 
