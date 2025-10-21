@@ -30,6 +30,12 @@ const Navbar = () => {
       <div className="banner-container">
         <img src={encg} alt="ENCG Banner" className="banner-image" />
       </div>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <div className="navbar-brand">
+          <img src="ENCG_Barakat_navbar.png" alt="" />
+          <h2>ENCG Barakat</h2>
+        </div>
 
       {/* Existing Navbar */}
       <nav className="navbar">

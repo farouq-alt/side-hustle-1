@@ -68,7 +68,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.navbar-brand{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-brand img{
+  width: 2rem;
+  
+}
 .navbar-brand h2 {
   color: #3f51b5; /* Primary blue for brand, slightly softer than before */
   margin: 0;
@@ -394,12 +403,16 @@ body {
   border: 1px solid #e0e6ec;
   border-radius: 8px;
   min-width: 240px;
+  background-color: #e0e6ec;
+  color: black;
 }
 
 .cours-filter {
   padding: 0.6rem 0.8rem;
   border: 1px solid #e0e6ec;
   border-radius: 8px;
+  background-color: #e0e6ec;
+  color: black;
 }
 
 .cours-status {
@@ -436,7 +449,11 @@ body {
   padding: 1rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
+.cours-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
 
+}
 .cours-card-header {
   display: flex;
   align-items: center;
@@ -476,7 +493,9 @@ body {
 .cours-card-actions {
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 0.75rem;
+  margin-top: 3rem;
 }
 
 .btn {
@@ -488,6 +507,8 @@ body {
   border: 1px solid transparent;
   cursor: pointer;
   text-decoration: none;
+  height: 2.5rem;
+  aspect-ratio: 3/1;
 }
 
 .btn-preview {
@@ -498,6 +519,8 @@ body {
 
 .btn-preview:hover {
   background: #e6eef6;
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 
 .btn-download {
@@ -507,6 +530,8 @@ body {
 }
 
 .btn-download:hover {
-  background: #334296;
-  border-color: #334296;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+
 }
