@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import encg from '../assets/encg.jpeg';
+import encg from '../assets/ENCG;png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
